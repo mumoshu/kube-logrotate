@@ -1,0 +1,7 @@
+[template]
+src = "crond-logrotate.tmpl"
+dest = "/etc/cron.d/logrotate"
+keys = [
+    "/rorate",
+    "/maxsize",
+]

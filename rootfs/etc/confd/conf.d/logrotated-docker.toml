@@ -1,0 +1,7 @@
+[template]
+src = "logrotated-docker.tmpl"
+dest = "/etc/logrotate.d/docker"
+keys = [
+    "/rotate",
+    "/maxsize",
+]

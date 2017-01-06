@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv sh
+
+# https://github.com/docker/docker/issues/19616
+ln -sf /proc/1/fd/1 /var/log/cron.log

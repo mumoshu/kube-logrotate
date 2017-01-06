@@ -1,0 +1,4 @@
+SHELL=/bin/sh
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+HOME=/
+* * * * * root logrotate -v --state /var/logrotate.state /etc/logrotate.conf >/var/log/cron.log 2>&1

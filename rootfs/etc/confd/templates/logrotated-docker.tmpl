@@ -1,0 +1,10 @@
+/var/lib/docker/containers/*/*-json.log {
+    rotate {{getv "/rotate"}}
+    copytruncate
+    missingok
+    notifempty
+    compress
+    maxsize {{getv "/maxsize"}}
+    daily
+    create 0644 root root
+}
