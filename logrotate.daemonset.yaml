@@ -15,7 +15,7 @@ spec:
       dnsPolicy: Default
       containers:
       - name: logrotate
-        image: mumoshu/kube-logrotate:0.1
+        image: mumoshu/kube-logrotate:0.1.0
         resources:
           limits:
             memory: 10Mi
